@@ -1,0 +1,38 @@
+[
+ {
+  "id": "a0000000-0000-4000-8000-000000000002",
+  "name": "Reviewer",
+  "role": "engineer",
+  "status": "idle"
+ },
+ {
+  "id": "a0000000-0000-4000-8000-000000000001",
+  "name": "Developer",
+  "role": "engineer",
+  "status": "running"
+ },
+ {
+  "id": "a0000000-0000-4000-8000-000000000004",
+  "name": "On Call",
+  "role": "general",
+  "status": "idle"
+ },
+ {
+  "id": "a0000000-0000-4000-8000-000000000005",
+  "name": "Head of Product",
+  "role": "ceo",
+  "status": "running"
+ },
+ {
+  "id": "a0000000-0000-4000-8000-000000000003",
+  "name": "QA",
+  "role": "qa",
+  "status": "idle"
+ },
+ {
+  "id": "a0000000-0000-4000-8000-000000000006",
+  "name": "PR watcher",
+  "role": "general",
+  "status": "idle"
+ }
+]

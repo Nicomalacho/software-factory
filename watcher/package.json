@@ -1,0 +1,16 @@
+{
+  "name": "factory-watcher",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "factory-watcher": "bin/factory-watcher.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "tick": "node bin/factory-watcher.js",
+    "dry-run": "node bin/factory-watcher.js --dry-run"
+  }
+}

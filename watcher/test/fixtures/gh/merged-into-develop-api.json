@@ -1,0 +1,62 @@
+[
+ {
+  "number": 14395,
+  "title": "[ENG-4443] Worker: record every 5xx and raise an alert",
+  "headRefName": "factory/ACME-189-eng-4443-worker-record-every-5xx-and-raise-an-alert",
+  "baseRefName": "develop",
+  "mergedAt": "2026-10-20T20:03:51Z",
+  "mergeCommit": {
+   "oid": "a20874ea0a8666b727e96065bf918fbf52885244"
+  }
+ },
+ {
+  "number": 14374,
+  "title": "[ENG-4445] Worker: add the error-tracker key to the dev and prod stacks",
+  "headRefName": "factory/ACME-190-eng-4445-worker-add-the-error-tracker-key-to-the-dev-and-pr",
+  "baseRefName": "develop",
+  "mergedAt": "2026-10-20T16:47:53Z",
+  "mergeCommit": {
+   "oid": "a6adba06016a3f690f58a8d44be0a6212bef3377"
+  }
+ },
+ {
+  "number": 14373,
+  "title": "[ENG-4442] Worker: fix the 500 on every request",
+  "headRefName": "factory/ACME-188-eng-4442-worker-fix-the-500-on-every-request",
+  "baseRefName": "develop",
+  "mergedAt": "2026-10-20T20:48:33Z",
+  "mergeCommit": {
+   "oid": "8ce5e5903d75500ae39972f46f4e016e3f236c36"
+  }
+ },
+ {
+  "number": 14322,
+  "title": "[ENG-4420] Worker: answer in the language the customer writes in",
+  "headRefName": "factory/ACME-96-eng-4420-worker-answer-in-the-language-the-customer-writes",
+  "baseRefName": "develop",
+  "mergedAt": "2026-10-19T20:31:40Z",
+  "mergeCommit": {
+   "oid": "09ed1a2a3fcfe73de2e917ad69760773da63a716"
+  }
+ },
+ {
+  "number": 14296,
+  "title": "[ENG-4397] Enable the worker for EU regions in dev and prod",
+  "headRefName": "factory/ACME-16-eng-4379-localize-the-worker-per-conversation-locale-and-tr",
+  "baseRefName": "develop",
+  "mergedAt": "2026-10-16T22:32:49Z",
+  "mergeCommit": {
+   "oid": "8d36bb527896fd0c9cfdefc96d8eb2a196266db5"
+  }
+ },
+ {
+  "number": 14279,
+  "title": "[ENG-4379] Localize the worker: per-conversation locale and translated text",
+  "headRefName": "factory/ACME-16-eng-4379-localize-the-worker-per-conversation-locale-and-tr",
+  "baseRefName": "develop",
+  "mergedAt": "2026-10-15T21:20:23Z",
+  "mergeCommit": {
+   "oid": "ccde7984b728e5cb4c9406014031fdc7c1ea0a7f"
+  }
+ }
+]

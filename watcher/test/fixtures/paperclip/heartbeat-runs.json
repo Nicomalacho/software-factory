@@ -1,0 +1,80 @@
+[
+ {
+  "id": "e0000000-0000-4000-8000-000000000001",
+  "agentId": "a0000000-0000-4000-8000-000000000005",
+  "status": "succeeded",
+  "startedAt": "2026-10-20T20:46:59.130Z",
+  "finishedAt": "2026-10-20T20:54:55.574Z",
+  "error": null,
+  "errorCode": null,
+  "contextSnapshot": {
+   "issueId": "c0000000-0000-4000-8000-000000000001",
+   "wakeReason": "issue_assigned"
+  }
+ },
+ {
+  "id": "e0000000-0000-4000-8000-000000000002",
+  "agentId": "a0000000-0000-4000-8000-000000000005",
+  "status": "succeeded",
+  "startedAt": "2026-10-20T20:42:21.266Z",
+  "finishedAt": "2026-10-20T20:46:58.965Z",
+  "error": null,
+  "errorCode": null,
+  "contextSnapshot": {
+   "issueId": "c0000000-0000-4000-8000-000000000002",
+   "wakeReason": "issue_commented"
+  }
+ },
+ {
+  "id": "e0000000-0000-4000-8000-000000000003",
+  "agentId": "a0000000-0000-4000-8000-000000000001",
+  "status": "succeeded",
+  "startedAt": "2026-10-20T20:39:36.736Z",
+  "finishedAt": "2026-10-20T20:40:53.123Z",
+  "error": null,
+  "errorCode": null,
+  "contextSnapshot": {
+   "issueId": "c0000000-0000-4000-8000-000000000003",
+   "wakeReason": "execution_changes_requested"
+  }
+ },
+ {
+  "id": "e0000000-0000-4000-8000-000000000004",
+  "agentId": "a0000000-0000-4000-8000-000000000002",
+  "status": "failed",
+  "startedAt": "2026-10-20T20:23:07.707Z",
+  "finishedAt": "2026-10-20T20:34:47.987Z",
+  "error": "Adapter failed",
+  "errorCode": "adapter_failed",
+  "contextSnapshot": {
+   "issueId": "c0000000-0000-4000-8000-000000000003",
+   "wakeReason": "issue_reopened_via_comment"
+  }
+ },
+ {
+  "id": "e0000000-0000-4000-8000-000000000005",
+  "agentId": "a0000000-0000-4000-8000-000000000005",
+  "status": "succeeded",
+  "startedAt": "2026-10-20T20:21:59.202Z",
+  "finishedAt": "2026-10-20T20:25:32.157Z",
+  "error": null,
+  "errorCode": null,
+  "contextSnapshot": {
+   "issueId": "c0000000-0000-4000-8000-000000000002",
+   "wakeReason": "issue_commented"
+  }
+ },
+ {
+  "id": "e0000000-0000-4000-8000-000000000006",
+  "agentId": "a0000000-0000-4000-8000-000000000005",
+  "status": "succeeded",
+  "startedAt": "2026-10-20T20:15:40.416Z",
+  "finishedAt": "2026-10-20T20:19:03.305Z",
+  "error": null,
+  "errorCode": null,
+  "contextSnapshot": {
+   "issueId": "c0000000-0000-4000-8000-000000000002",
+   "wakeReason": "issue_commented"
+  }
+ }
+]

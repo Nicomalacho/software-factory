@@ -1,0 +1,46 @@
+[
+ {
+  "id": 7200001,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-15T22:37:41Z",
+  "html_url": "https://github.com/acme/web/pull/8283#pullrequestreview-7200001"
+ },
+ {
+  "id": 7200002,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-15T23:00:35Z",
+  "html_url": "https://github.com/acme/web/pull/8283#pullrequestreview-7200002"
+ },
+ {
+  "id": 7200003,
+  "user": {
+   "login": "translator-1",
+   "type": "User"
+  },
+  "body": "1. `orderWithCourier`: the German string reads as if the courier placed the order. Suggest rewording.",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-16T17:40:38Z",
+  "html_url": "https://github.com/acme/web/pull/8283#pullrequestreview-7200003"
+ },
+ {
+  "id": 7200004,
+  "user": {
+   "login": "translator-1",
+   "type": "User"
+  },
+  "body": "",
+  "state": "APPROVED",
+  "submitted_at": "2026-10-16T17:48:49Z",
+  "html_url": "https://github.com/acme/web/pull/8283#pullrequestreview-7200004"
+ }
+]

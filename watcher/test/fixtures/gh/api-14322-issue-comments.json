@@ -1,0 +1,32 @@
+[
+ {
+  "id": 7400001,
+  "user": {
+   "login": "linear[bot]",
+   "type": "Bot"
+  },
+  "body": "<!-- linear-linkback -->\n<details>\n<summary>ENG-4420</summary>\n</details>",
+  "created_at": "2026-10-16T20:27:48Z",
+  "html_url": "https://github.com/acme/api/pull/14322#issuecomment-7400001"
+ },
+ {
+  "id": 7400002,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "@claude @codex review this",
+  "created_at": "2026-10-19T19:26:21Z",
+  "html_url": "https://github.com/acme/api/pull/14322#issuecomment-7400002"
+ },
+ {
+  "id": 7400003,
+  "user": {
+   "login": "claude[bot]",
+   "type": "Bot"
+  },
+  "body": "**Claude finished the review in 1m 43s**",
+  "created_at": "2026-10-19T19:27:06Z",
+  "html_url": "https://github.com/acme/api/pull/14322#issuecomment-7400003"
+ }
+]

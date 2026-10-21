@@ -1,0 +1,30 @@
+[
+ {
+  "id": 7900001,
+  "user": {
+   "login": "devin-ai-integration[bot]",
+   "type": "Bot"
+  },
+  "body": "<!-- devin-review-comment -->\nPossible unhandled rejection.",
+  "created_at": "2026-10-20T20:42:57Z",
+  "html_url": "https://github.com/acme/api/pull/14373#discussion_r7900001",
+  "path": "infra/worker/scripts/post-deploy.sh",
+  "line": 8,
+  "original_line": 8,
+  "pull_request_review_id": 7800003
+ },
+ {
+  "id": 7900002,
+  "user": {
+   "login": "chatgpt-codex-connector[bot]",
+   "type": "Bot"
+  },
+  "body": "**P1** Retry loop never ends when the upload fails.",
+  "created_at": "2026-10-20T20:43:21Z",
+  "html_url": "https://github.com/acme/api/pull/14373#discussion_r7900002",
+  "path": "infra/worker/scripts/smoke/upload.ts",
+  "line": 16,
+  "original_line": 16,
+  "pull_request_review_id": null
+ }
+]

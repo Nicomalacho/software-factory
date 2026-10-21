@@ -1,0 +1,44 @@
+[
+ {
+  "id": 7600001,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "**Blocker.** Some short English replies switch the language because they contain one foreign word.",
+  "created_at": "2026-10-16T20:35:18Z",
+  "html_url": "https://github.com/acme/api/pull/14322#discussion_r7600001",
+  "path": "infra/worker/src/i18n/detect-locale.ts",
+  "line": null,
+  "original_line": 46,
+  "pull_request_review_id": 7500001
+ },
+ {
+  "id": 7600002,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "Fixed in c35120758. Switching language now needs a clear lead over the current one.",
+  "created_at": "2026-10-16T22:26:38Z",
+  "html_url": "https://github.com/acme/api/pull/14322#discussion_r7600002",
+  "path": "infra/worker/src/i18n/detect-locale.ts",
+  "line": null,
+  "original_line": 46,
+  "pull_request_review_id": 7500002
+ },
+ {
+  "id": 7600003,
+  "user": {
+   "login": "chatgpt-codex-connector[bot]",
+   "type": "Bot"
+  },
+  "body": "<!-- codex-security-review-finding:v1 -->\n\nNo security issue found.",
+  "created_at": "2026-10-19T19:32:19Z",
+  "html_url": "https://github.com/acme/api/pull/14322#discussion_r7600003",
+  "path": "infra/worker/src/i18n/detect-locale.ts",
+  "line": 47,
+  "original_line": 47,
+  "pull_request_review_id": null
+ }
+]

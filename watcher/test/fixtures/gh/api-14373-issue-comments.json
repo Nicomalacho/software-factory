@@ -1,0 +1,12 @@
+[
+ {
+  "id": 7700001,
+  "user": {
+   "login": "coderabbitai[bot]",
+   "type": "Bot"
+  },
+  "body": "<!-- coderabbit-ai-generated:v1 -->\nWalkthrough: fixes the 500.",
+  "created_at": "2026-10-19T22:22:11Z",
+  "html_url": "https://github.com/acme/api/pull/14373#issuecomment-7700001"
+ }
+]

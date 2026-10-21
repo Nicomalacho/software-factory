@@ -1,0 +1,35 @@
+[
+ {
+  "id": 7800001,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "Reviewer pass on `128ac56f5`. Not ready for QA yet.",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-19T22:28:18Z",
+  "html_url": "https://github.com/acme/api/pull/14373#pullrequestreview-7800001"
+ },
+ {
+  "id": 7800002,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "Second pass on `2ef078e16`. Everything from the first review is in.",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-19T23:06:57Z",
+  "html_url": "https://github.com/acme/api/pull/14373#pullrequestreview-7800002"
+ },
+ {
+  "id": 7800003,
+  "user": {
+   "login": "devin-ai-integration[bot]",
+   "type": "Bot"
+  },
+  "body": "**Devin Review** found 2 potential issues.",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-20T20:43:02Z",
+  "html_url": "https://github.com/acme/api/pull/14373#pullrequestreview-7800003"
+ }
+]
