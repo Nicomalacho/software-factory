@@ -1,0 +1,30 @@
+[
+ {
+  "id": 7300001,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "Let's move this to a shared component, check if we already have one ",
+  "created_at": "2026-10-15T22:37:41Z",
+  "html_url": "https://github.com/acme/web/pull/8283#discussion_r7300001",
+  "path": "packages/common/src/utils/order-type.ts",
+  "line": null,
+  "original_line": 6,
+  "pull_request_review_id": 7200001
+ },
+ {
+  "id": 7300002,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "Moved in `b99e61a47`. Nothing existing could be reused.",
+  "created_at": "2026-10-15T23:00:35Z",
+  "html_url": "https://github.com/acme/web/pull/8283#discussion_r7300002",
+  "path": "packages/common/src/utils/order-type.ts",
+  "line": null,
+  "original_line": 6,
+  "pull_request_review_id": 7200002
+ }
+]

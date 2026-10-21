@@ -1,0 +1,130 @@
+{
+  "stateFile": "/var/lib/factory-watcher/state.json",
+  "businessHours": {
+    "timeZone": "America/Bogota",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "start": "08:00",
+    "end": "18:00"
+  },
+  "issueKeyPattern": "ENG-\\d+",
+  "github": {
+    "boardLogin": "acme-owner",
+    "factoryBranchPrefix": "factory/",
+    "botLogins": [
+      "coderabbitai",
+      "chatgpt-codex-connector",
+      "devin-ai-integration",
+      "linear",
+      "vercel",
+      "github-actions",
+      "claude"
+    ],
+    "agentMarkers": [
+      "<!-- factory-agent"
+    ],
+    "agentPhrasePatterns": [
+      "\\(factory agent\\)",
+      "\\bReviewer agent\\b",
+      "\\bAlex\\b",
+      "^\\W*(Reviewer|QA)\\b",
+      "\\bHanding (it )?(over )?to (QA|the Reviewer|the Developer|Alex)\\b",
+      "^\\W*(Fixed|Moved|Done|Addressed) in `?[0-9a-f]{7,}",
+      "^\\W*(Re-review|Second pass)\\b"
+    ],
+    "ignoredBodyPatterns": [
+      "^\\s*(@[\\w-]+[\\s,]*)+(please\\s+)?(re-?review|review)(\\s+(this|again))?\\W*$"
+    ],
+    "ignoredChecks": [
+      "CodeRabbit",
+      "^Vercel",
+      "Vercel Preview Comments",
+      "^Claude Code",
+      "deploy-",
+      "check-changes",
+      "Linear"
+    ]
+  },
+  "paperclip": {
+    "boardUserId": "local-board",
+    "boardUserName": "Alex",
+    "boardIssueId": null,
+    "uiBaseUrl": "http://127.0.0.1:3100/ACME",
+    "approvalPatterns": [
+      "^(approve|approved|approved by me|lgtm|ship it|looks good)[\\s.!]*$"
+    ],
+    "agents": {
+      "developer": "a0000000-0000-4000-8000-000000000001",
+      "reviewer": "a0000000-0000-4000-8000-000000000002",
+      "qa": "a0000000-0000-4000-8000-000000000003",
+      "onCall": "a0000000-0000-4000-8000-000000000004",
+      "headOfProduct": "a0000000-0000-4000-8000-000000000005"
+    },
+    "projects": {
+      "productionMonitoring": "b0000000-0000-4000-8000-000000000004",
+      "discovery": "b0000000-0000-4000-8000-000000000005"
+    }
+  },
+  "repos": [
+    {
+      "name": "api",
+      "github": "acme/api",
+      "projectId": "b0000000-0000-4000-8000-000000000001",
+      "baseBranch": "develop",
+      "deploy": {
+        "type": "deploy-pr",
+        "base": "master",
+        "head": "develop",
+        "titlePattern": "^\\s*Deploy\\b",
+        "label": "Deploy"
+      },
+      "manualDeployPaths": [
+        {
+          "path": "infra/worker/",
+          "label": "edge worker"
+        }
+      ]
+    },
+    {
+      "name": "web",
+      "github": "acme/web",
+      "projectId": "b0000000-0000-4000-8000-000000000002",
+      "baseBranch": "develop",
+      "deploy": {
+        "type": "deploy-pr",
+        "base": "master",
+        "head": "develop",
+        "titlePattern": "^\\s*Deploy\\b",
+        "label": "Deploy"
+      }
+    },
+    {
+      "name": "admin",
+      "github": "acme/admin",
+      "projectId": "b0000000-0000-4000-8000-000000000003",
+      "baseBranch": "develop",
+      "deploy": {
+        "type": "deploy-pr",
+        "base": "master",
+        "head": "develop",
+        "titlePattern": "^\\s*Deploy\\b",
+        "label": "Deploy"
+      },
+      "requireUpToDateBeforeApproval": true
+    }
+  ],
+  "ledger": {
+    "seedMergedSince": "2026-10-13",
+    "errorTracker": "the error tracker"
+  },
+  "board": {
+    "approvalCap": 5,
+    "rewriteMinutes": 60,
+    "stuckHours": 24
+  }
+}

@@ -1,0 +1,47 @@
+[
+ {
+  "author": {
+   "is_bot": false,
+   "login": "release-manager",
+   "name": ""
+  },
+  "baseRefName": "master",
+  "headRefName": "develop",
+  "mergeCommit": {
+   "oid": "77bf0818ded06b9a12d5589b6cc06b1dd1e75748"
+  },
+  "mergedAt": "2026-10-20T20:01:38Z",
+  "number": 14397,
+  "title": "Deploy"
+ },
+ {
+  "author": {
+   "is_bot": false,
+   "login": "release-manager",
+   "name": ""
+  },
+  "baseRefName": "master",
+  "headRefName": "develop",
+  "mergeCommit": {
+   "oid": "bdebe5130d55baa7637adea079140ba1714edc61"
+  },
+  "mergedAt": "2026-10-20T17:32:43Z",
+  "number": 14394,
+  "title": "Deploy"
+ },
+ {
+  "author": {
+   "is_bot": false,
+   "login": "release-manager",
+   "name": ""
+  },
+  "baseRefName": "master",
+  "headRefName": "develop",
+  "mergeCommit": {
+   "oid": "8999d58d35db429f11bbb09acbe2adc1475a4f8c"
+  },
+  "mergedAt": "2026-10-20T15:57:27Z",
+  "number": 14392,
+  "title": "Deploy"
+ }
+]

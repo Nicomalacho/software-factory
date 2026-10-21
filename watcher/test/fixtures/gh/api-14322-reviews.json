@@ -1,0 +1,46 @@
+[
+ {
+  "id": 7500001,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "Review from the Reviewer agent (ACME-96). One blocker and two non-blocking comments.",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-16T20:35:18Z",
+  "html_url": "https://github.com/acme/api/pull/14322#pullrequestreview-7500001"
+ },
+ {
+  "id": 7500002,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-16T22:26:38Z",
+  "html_url": "https://github.com/acme/api/pull/14322#pullrequestreview-7500002"
+ },
+ {
+  "id": 7500003,
+  "user": {
+   "login": "acme-owner",
+   "type": "User"
+  },
+  "body": "Re-review of `c35120758`. The blocker is fixed. I'm handing this to QA.",
+  "state": "COMMENTED",
+  "submitted_at": "2026-10-16T22:49:12Z",
+  "html_url": "https://github.com/acme/api/pull/14322#pullrequestreview-7500003"
+ },
+ {
+  "id": 7500004,
+  "user": {
+   "login": "teammate-1",
+   "type": "User"
+  },
+  "body": "",
+  "state": "APPROVED",
+  "submitted_at": "2026-10-19T20:25:34Z",
+  "html_url": "https://github.com/acme/api/pull/14322#pullrequestreview-7500004"
+ }
+]

@@ -1,0 +1,117 @@
+[
+ {
+  "author": {
+   "is_bot": false,
+   "login": "factory-user",
+   "name": "Factory User"
+  },
+  "baseRefName": "develop",
+  "body": "## What changed and why\n\nMade-up summary for ENG-4441. The change is described here in a sentence or two.\n\n## How it was tested\n\n`npm test` passes.\n\nTracker: ENG-4441",
+  "createdAt": "2026-10-19T20:51:21Z",
+  "headRefName": "factory/ACME-182-eng-4441-web-report-each-banner-as-shown-dropped-or-tapped",
+  "headRefOid": "a7614eb65edf336fbdfedb0d1bba3f3ff4fa2dfd",
+  "isDraft": true,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "number": 8359,
+  "statusCheckRollup": [
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-19T20:51:25Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/web/actions/runs/128942754837/job/120000000000",
+    "name": "Type Check, Lint and Prettier",
+    "startedAt": "2026-10-19T20:51:32Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-19T20:51:25Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/web/actions/runs/134509843170/job/120000000001",
+    "name": "Run E2E tests",
+    "startedAt": "2026-10-19T20:51:25Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-19T20:51:25Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/web/actions/runs/81887550099/job/120000000002",
+    "name": "Run E2E tests (web-v2)",
+    "startedAt": "2026-10-19T20:51:32Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-19T20:51:25Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/web/actions/runs/57679428090/job/120000000003",
+    "name": "Run Content-v2 E2E tests",
+    "startedAt": "2026-10-19T20:51:33Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-19T20:51:25Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/web/actions/runs/100216875046/job/120000000004",
+    "name": "Run Content E2E tests",
+    "startedAt": "2026-10-19T20:51:25Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "CodeRabbit",
+    "startedAt": "2026-10-19T20:51:29Z",
+    "state": "SUCCESS",
+    "targetUrl": ""
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-19T20:55:30Z",
+    "conclusion": "SUCCESS",
+    "detailsUrl": "https://vercel.com/github",
+    "name": "Vercel Preview Comments",
+    "startedAt": "2026-10-19T20:55:30Z",
+    "status": "COMPLETED",
+    "workflowName": ""
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "Vercel – acme-content",
+    "startedAt": "2026-10-19T20:51:06Z",
+    "state": "SUCCESS",
+    "targetUrl": "https://vercel.com/acme/acme-content/6400203aa86e585f96ee41eef3e1"
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "Vercel – acme-content-v2",
+    "startedAt": "2026-10-19T20:51:06Z",
+    "state": "SUCCESS",
+    "targetUrl": "https://vercel.com/acme/acme-content-v2/f2cd255ac2203addb386c4c52149"
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "Vercel – acme-web",
+    "startedAt": "2026-10-19T20:51:07Z",
+    "state": "SUCCESS",
+    "targetUrl": "https://vercel.com/acme/acme-web/0317ebb2f5a256cb4cf25fb6f908"
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "Vercel – acme-web-v2",
+    "startedAt": "2026-10-19T20:55:29Z",
+    "state": "SUCCESS",
+    "targetUrl": "https://vercel.com/acme/acme-web-v2/72a06a0c307fdb2cc3b4bb01dcb5"
+   }
+  ],
+  "title": "[ENG-4441] Web: report each banner as shown, dropped or tapped",
+  "updatedAt": "2026-10-19T20:55:30Z"
+ }
+]

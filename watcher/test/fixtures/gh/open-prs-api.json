@@ -1,0 +1,720 @@
+[
+ {
+  "author": {
+   "is_bot": false,
+   "login": "factory-user",
+   "name": "Factory User"
+  },
+  "baseRefName": "develop",
+  "body": "## What changed and why\n\nMade-up summary for ENG-4424. The change is described here in a sentence or two.\n\n## How it was tested\n\n`npm test` passes.\n\nTracker: ENG-4424",
+  "createdAt": "2026-10-16T21:36:45Z",
+  "headRefName": "factory/ACME-99-eng-4424-orders-one-open-ticket-per-order-add-new-details-a",
+  "headRefOid": "11a984414dd361b6d3cf97c4a2d837cf664d4171",
+  "isDraft": true,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "number": 14331,
+  "statusCheckRollup": [
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:29:44Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/100824204057/job/120000000000",
+    "name": "claude",
+    "startedAt": "2026-10-16T22:29:45Z",
+    "status": "COMPLETED",
+    "workflowName": "Claude Code"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-19T20:30:21Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/112222315924/job/120000000001",
+    "name": "claude",
+    "startedAt": "2026-10-19T20:30:22Z",
+    "status": "COMPLETED",
+    "workflowName": "Claude Code"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-19T20:30:35Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/119285861176/job/120000000002",
+    "name": "claude",
+    "startedAt": "2026-10-19T20:30:36Z",
+    "status": "COMPLETED",
+    "workflowName": "Claude Code"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/60802001312/job/120000000003",
+    "name": "check-changes",
+    "startedAt": "2026-10-16T21:36:57Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:29:47Z",
+    "conclusion": "SUCCESS",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/135976143303/job/120000000004",
+    "name": "checks",
+    "startedAt": "2026-10-16T21:26:18Z",
+    "status": "COMPLETED",
+    "workflowName": "Worker CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/58120989971/job/120000000005",
+    "name": "timings-snapshot",
+    "startedAt": "2026-10-16T21:36:49Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/121488620049/job/120000000006",
+    "name": "email-tests",
+    "startedAt": "2026-10-16T21:36:59Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/48282469205/job/120000000007",
+    "name": "checks",
+    "startedAt": "2026-10-16T21:36:49Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/130673411494/job/120000000008",
+    "name": "worker-checks",
+    "startedAt": "2026-10-16T21:36:58Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/62282310204/job/120000000009",
+    "name": "check-prod-install",
+    "startedAt": "2026-10-16T21:36:55Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/70693853405/job/120000000010",
+    "name": "build",
+    "startedAt": "2026-10-16T21:36:49Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/58448976235/job/120000000011",
+    "name": "deploy-dev-api-run-migrations",
+    "startedAt": "2026-10-16T21:36:57Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/40903993383/job/120000000012",
+    "name": "deploy-prod-api-run-migrations",
+    "startedAt": "2026-10-16T21:36:49Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/74492705338/job/120000000013",
+    "name": "check-changes-timings",
+    "startedAt": "2026-10-16T21:36:49Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/60825770054/job/120000000014",
+    "name": "deploy-dev-api-app-aws",
+    "startedAt": "2026-10-16T21:36:49Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/111859334050/job/120000000015",
+    "name": "deploy-prod-api-app-aws",
+    "startedAt": "2026-10-16T21:36:49Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:36:49Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/96303474351/job/120000000016",
+    "name": "deploy-marker",
+    "startedAt": "2026-10-16T21:36:49Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "CodeRabbit",
+    "startedAt": "2026-10-16T21:36:54Z",
+    "state": "SUCCESS",
+    "targetUrl": ""
+   }
+  ],
+  "title": "[ENG-4424] Orders: one open ticket per order, add new details as a note",
+  "updatedAt": "2026-10-19T20:30:35Z"
+ },
+ {
+  "author": {
+   "is_bot": false,
+   "login": "factory-user",
+   "name": "Factory User"
+  },
+  "baseRefName": "develop",
+  "body": "## What changed and why\n\nMade-up summary for ENG-4423. The change is described here in a sentence or two.\n\n## How it was tested\n\n`npm test` passes.\n\nTracker: ENG-4423",
+  "createdAt": "2026-10-16T21:01:02Z",
+  "headRefName": "factory/ACME-98-eng-4423-checkout-a-typed-yes-to-the-suggested-address-sele",
+  "headRefOid": "43d5602b8c37057e4ba088f60978b6eb7c892312",
+  "isDraft": true,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "number": 14327,
+  "statusCheckRollup": [
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/111851523009/job/120000000000",
+    "name": "check-changes",
+    "startedAt": "2026-10-16T21:01:16Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:03:35Z",
+    "conclusion": "SUCCESS",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/64228822633/job/120000000001",
+    "name": "checks",
+    "startedAt": "2026-10-16T21:00:29Z",
+    "status": "COMPLETED",
+    "workflowName": "Worker CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/64983560705/job/120000000002",
+    "name": "timings-snapshot",
+    "startedAt": "2026-10-16T21:01:15Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/78765864289/job/120000000003",
+    "name": "email-tests",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/136374246598/job/120000000004",
+    "name": "checks",
+    "startedAt": "2026-10-16T21:01:12Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/74760034414/job/120000000005",
+    "name": "worker-checks",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/87931703153/job/120000000006",
+    "name": "check-prod-install",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/129028751370/job/120000000007",
+    "name": "build",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/46840189616/job/120000000008",
+    "name": "deploy-dev-api-run-migrations",
+    "startedAt": "2026-10-16T21:01:16Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/133065312623/job/120000000009",
+    "name": "deploy-prod-api-run-migrations",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/49418240950/job/120000000010",
+    "name": "check-changes-timings",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:07Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/103944284329/job/120000000011",
+    "name": "deploy-dev-api-app-aws",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:07Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/106036629484/job/120000000012",
+    "name": "deploy-prod-api-app-aws",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T21:01:07Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/109461745488/job/120000000013",
+    "name": "deploy-marker",
+    "startedAt": "2026-10-16T21:01:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "CodeRabbit",
+    "startedAt": "2026-10-16T21:01:12Z",
+    "state": "SUCCESS",
+    "targetUrl": ""
+   }
+  ],
+  "title": "[ENG-4423] Checkout: a typed yes to the suggested address selects it",
+  "updatedAt": "2026-10-16T22:14:27Z"
+ },
+ {
+  "author": {
+   "is_bot": false,
+   "login": "factory-user",
+   "name": "Factory User"
+  },
+  "baseRefName": "factory/ACME-22-eng-4384-payment-facts-what-was-charged-and-refunded-on-an",
+  "body": "## What changed and why\n\nMade-up summary for ENG-4392. The change is described here in a sentence or two.\n\n**Stacked on #14299**, base `factory/ACME-22-eng-4384-payment-facts-what-was-charged-and-refunded-on-an`.\n\n## How it was tested\n\n`npm test` passes.\n\nTracker: ENG-4392",
+  "createdAt": "2026-10-16T00:00:29Z",
+  "headRefName": "factory/ACME-33-eng-4392-order-facts-who-caused-a-delay-on-every-refund-tic",
+  "headRefOid": "3757fc650e93111f296c6f7e3989fd78f13e4691",
+  "isDraft": true,
+  "mergeStateStatus": "CLEAN",
+  "mergeable": "MERGEABLE",
+  "number": 14300,
+  "statusCheckRollup": [
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T23:46:26Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/102963566066/job/120000000000",
+    "name": "claude",
+    "startedAt": "2026-10-16T23:46:26Z",
+    "status": "COMPLETED",
+    "workflowName": "Claude Code"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:00Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/60855860628/job/120000000001",
+    "name": "check-changes",
+    "startedAt": "2026-10-16T22:58:01Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T23:00:45Z",
+    "conclusion": "SUCCESS",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/88572915466/job/120000000002",
+    "name": "checks",
+    "startedAt": "2026-10-16T22:58:00Z",
+    "status": "COMPLETED",
+    "workflowName": "Worker CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:00Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/50145887157/job/120000000003",
+    "name": "timings-snapshot",
+    "startedAt": "2026-10-16T22:58:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:00Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/74725366814/job/120000000004",
+    "name": "email-tests",
+    "startedAt": "2026-10-16T22:58:10Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:00Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/67761873527/job/120000000005",
+    "name": "checks",
+    "startedAt": "2026-10-16T22:58:06Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:00Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/60376219123/job/120000000006",
+    "name": "worker-checks",
+    "startedAt": "2026-10-16T22:58:01Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:00Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/94239219326/job/120000000007",
+    "name": "check-prod-install",
+    "startedAt": "2026-10-16T22:58:08Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:01Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/60408228055/job/120000000008",
+    "name": "build",
+    "startedAt": "2026-10-16T22:58:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:01Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/44197185556/job/120000000009",
+    "name": "deploy-dev-api-run-migrations",
+    "startedAt": "2026-10-16T22:58:01Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:01Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/45531594811/job/120000000010",
+    "name": "deploy-prod-api-run-migrations",
+    "startedAt": "2026-10-16T22:58:01Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:01Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/105374859780/job/120000000011",
+    "name": "check-changes-timings",
+    "startedAt": "2026-10-16T22:58:01Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:01Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/89665801778/job/120000000012",
+    "name": "deploy-dev-api-app-aws",
+    "startedAt": "2026-10-16T22:58:01Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:01Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/72264602019/job/120000000013",
+    "name": "deploy-prod-api-app-aws",
+    "startedAt": "2026-10-16T22:58:01Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:58:01Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/40932382352/job/120000000014",
+    "name": "deploy-marker",
+    "startedAt": "2026-10-16T22:58:01Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "CodeRabbit",
+    "startedAt": "2026-10-16T22:58:06Z",
+    "state": "SUCCESS",
+    "targetUrl": ""
+   }
+  ],
+  "title": "[ENG-4392] Order facts: who caused a delay, on every refund ticket (read-only)",
+  "updatedAt": "2026-10-16T23:46:21Z"
+ },
+ {
+  "author": {
+   "is_bot": false,
+   "login": "factory-user",
+   "name": "Factory User"
+  },
+  "baseRefName": "factory/ACME-21-eng-4383-delivery-lane-say-when-parcels-are-due-and-chase-a",
+  "body": "## What changed and why\n\nMade-up summary for ENG-4384. The change is described here in a sentence or two.\n\n**Stacked on #14284**, base `factory/ACME-21-eng-4383-delivery-lane-say-when-parcels-are-due-and-chase-a`.\n\n## How it was tested\n\n`npm test` passes.\n\nTracker: ENG-4384",
+  "createdAt": "2026-10-15T23:23:02Z",
+  "headRefName": "factory/ACME-22-eng-4384-payment-facts-what-was-charged-and-refunded-on-an",
+  "headRefOid": "83862d3506fd3612dd78adb8fa71406cbfc887b2",
+  "isDraft": true,
+  "mergeStateStatus": "CLEAN",
+  "mergeable": "MERGEABLE",
+  "number": 14299,
+  "statusCheckRollup": [
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-16T22:19:50Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/113680495733/job/120000000000",
+    "name": "claude",
+    "startedAt": "2026-10-16T22:19:50Z",
+    "status": "COMPLETED",
+    "workflowName": "Claude Code"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/50785425386/job/120000000001",
+    "name": "check-changes",
+    "startedAt": "2026-10-15T23:23:15Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:25:21Z",
+    "conclusion": "SUCCESS",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/49927295143/job/120000000002",
+    "name": "checks",
+    "startedAt": "2026-10-15T23:22:12Z",
+    "status": "COMPLETED",
+    "workflowName": "Worker CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/63194968691/job/120000000003",
+    "name": "timings-snapshot",
+    "startedAt": "2026-10-15T23:23:13Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/88241878841/job/120000000004",
+    "name": "email-tests",
+    "startedAt": "2026-10-15T23:23:06Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/49095843564/job/120000000005",
+    "name": "checks",
+    "startedAt": "2026-10-15T23:23:16Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/79613909273/job/120000000006",
+    "name": "worker-checks",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/64897186282/job/120000000007",
+    "name": "check-prod-install",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/46984409408/job/120000000008",
+    "name": "build",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/105196027953/job/120000000009",
+    "name": "deploy-dev-api-run-migrations",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/64279522156/job/120000000010",
+    "name": "deploy-prod-api-run-migrations",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/126721503578/job/120000000011",
+    "name": "check-changes-timings",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/79592899750/job/120000000012",
+    "name": "deploy-dev-api-app-aws",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/86046896891/job/120000000013",
+    "name": "deploy-prod-api-app-aws",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "CheckRun",
+    "completedAt": "2026-10-15T23:23:06Z",
+    "conclusion": "SKIPPED",
+    "detailsUrl": "https://github.com/acme/api/actions/runs/54454088156/job/120000000014",
+    "name": "deploy-marker",
+    "startedAt": "2026-10-15T23:23:07Z",
+    "status": "COMPLETED",
+    "workflowName": "Node CI"
+   },
+   {
+    "__typename": "StatusContext",
+    "context": "CodeRabbit",
+    "startedAt": "2026-10-15T23:23:12Z",
+    "state": "SUCCESS",
+    "targetUrl": ""
+   }
+  ],
+  "title": "[ENG-4384] Payment facts: what was charged and refunded on an order (read-only)",
+  "updatedAt": "2026-10-16T22:19:46Z"
+ }
+]
